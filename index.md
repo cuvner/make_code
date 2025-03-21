@@ -9,3 +9,5 @@ Explore beginner-friendly micro:bit tutorials made with Microsoft MakeCode.
 ## 🔗 Projects
 
 - [Blinking LED](blinking-led.md)
+- [Blinking LED](README.md.md)
+
