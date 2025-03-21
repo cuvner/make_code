@@ -1,3 +1,6 @@
 title: MakeCode Projects
 theme: minima
 markdown: kramdown
+
+makecode:
+  home_url: https://makecode.microbit.org/
