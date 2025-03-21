@@ -6,7 +6,7 @@ title: Blinking LED
 
 This project toggles the center LED on and off every 500 milliseconds.
 
-```javascript
+```blocks
 basic.forever(function () {
     led.toggle(2, 2)
     basic.pause(500)
