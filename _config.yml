@@ -3,4 +3,6 @@ theme: minima
 markdown: kramdown
 
 makecode:
+  target: microbit
+  platform: microbit
   home_url: https://makecode.microbit.org/
