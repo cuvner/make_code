@@ -6,26 +6,12 @@ title: Blinking LED
 
 In this project, the LED on the micro:bit will blink on and off in a loop.
 
-## 🧱 MakeCode Blocks
+## 🧱 Try it in MakeCode
 
-[Click here to view in MakeCode Editor](https://makecode.microbit.org/_3e3bcgT7MhxL)  
-(You can remix it, run the simulator, or download it to your micro:bit!)
+You can edit and run this project directly below:
 
-### 🖼️ Block Preview
-
-![MakeCode Blocks](https://pxt.azureedge.net/blob/9d57cfbfb607645e4a81efc86184ec0c6bc97418.png)
-
-### 🔍 Code Snippet
-
-```blocks
-basic.forever(function () {
-    led.toggle(2, 2)
-    basic.pause(500)
-})
-```
+<iframe src="https://makecode.microbit.org/#pub:_3e3bcgT7MhxL" height="400px" width="100%" allowfullscreen="allowfullscreen" sandbox="allow-scripts allow-same-origin"></iframe>
 
 ---
 
 Back to [Home](index.md)
-
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
