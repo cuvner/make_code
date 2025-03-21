@@ -4,13 +4,19 @@ title: Blinking LED
 
 # 💡 Blinking LED Project (micro:bit)
 
-In this project, the LED on the micro:bit will blink on and off in a loop.
+This project toggles the center LED on and off every 500 milliseconds.
 
-## 🧱 Try it in MakeCode
+```javascript
+basic.forever(function () {
+    led.toggle(2, 2)
+    basic.pause(500)
+})
+```
 
-You can edit and run this project directly below:
-
-<iframe src="https://makecode.microbit.org/#pub:_3e3bcgT7MhxL" height="400px" width="100%" allowfullscreen="allowfullscreen" sandbox="allow-scripts allow-same-origin"></iframe>
+<script src="https://makecode.com/gh-pages-embed.js"></script>
+<script>
+  makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");
+</script>
 
 ---
 
